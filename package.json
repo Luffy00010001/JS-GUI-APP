@@ -1,0 +1,15 @@
+{
+  "name": "js-desktop-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "Rasberries",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^21.2.3"
+  }
+}

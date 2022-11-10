@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+nav {
+    background: rgb(24, 24, 24);
+    padding: 1em;
+    color: white;
+    position: fixed;
+    width: 100%;
+    height: 40px;
+}
+
+header {
+    margin-bottom: 100px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.headD {
+    padding: 1em;
+    text-align: center;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactForm input,.contactForm textarea {
+    border: 1.5px solid transparent;
+    border-bottom-color: black;
+    padding: 7px;
+    margin: 8px;
+    width: 300px;
+    resize: none;
+    outline: none;
+}
+
+footer {
+    font-size:large;
+    background-color: rgba(0,0,0,.8);
+    color: white;
+    display: grid;
+    place-items: center;
+    padding: 1em;
+    margin-top: 2em;
+}
+
+.submitInp {
+    border-bottom-color: none;
+    width: 400px;
+    border-radius: 10px;
+    background-color: rgb(71, 71, 255);
+    color: white;
+    margin-bottom: 20px;
+}
+
+* {
+    font-family: poppins;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.items {
+    display: flex;
+    float: right;
+    transform: translateY(-2.4em) translateX(-30px);
+}
+
+.items li a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+.items li {
+    list-style-type: none;
+    padding-block: 6px;
+    padding-inline: 12px;
+    border-radius: 10px;
+    transition: all .3s;
+}
+
+.items li:hover {
+    background: rgb(71, 71, 255);
+
+}
+
+.sec {
+    padding: 2em;
+    margin: 1em;
+
+}
+
+.head {
+    margin: 10px;
+
+}
+
+
